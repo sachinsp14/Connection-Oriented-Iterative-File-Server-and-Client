@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc tcp_iterative_server.c -o tcp_iterative_server
+
+clean:
+	rm tcp_iterative_server
